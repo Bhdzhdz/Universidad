@@ -1,0 +1,14 @@
+
+name: University
+channels:
+  - conda-forge
+dependencies:
+  - xeus-cling
+  - python
+  - numpy
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
